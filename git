@@ -17,8 +17,6 @@ git pull origin master
 then 
 git push origin master
 
-Ssh 1234567*
-
 git push -u origin master
 git branch T1 --- To Create Branch.
 git branch –a ---- List of all Branch.
