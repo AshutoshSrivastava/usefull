@@ -1,0 +1,34 @@
+Git Steps:
+first commit all changes to local git
+1. git init
+2. git add .
+3. git commit -m "initial"
+create a repo to github
+copy commands from there and run one by one
+4. git remote add origin git@github.com:AshutoshSrivastava/terratest.git
+5. git branch -M master
+6. git push -u origin master
+
+git status
+git add main.cs
+git push origin master
+if server is not sync
+git pull origin master
+then 
+git push origin master
+
+Ssh 1234567*
+
+git push -u origin master
+git branch T1 --- To Create Branch.
+git branch –a ---- List of all Branch.
+git checkout T1 ----- Switch to Branch.
+git push -u origin T1 --- Push Branch.
+git checkout master  ----Switched to branch 'master'
+ git merge T1
+
+Key Gen
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+ssh-keygen -t ed25519 -C "erashu@live.in"
+https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
